@@ -1,0 +1,28 @@
+[
+  { "id": "bergen-01", "name": "Bryggen", "description": "Historisk brygge med uteservering langs vannet", "latitude": 60.3972, "longitude": 5.3243, "type": "waterfront", "city": "Bergen" },
+  { "id": "bergen-02", "name": "Torgallmenningen", "description": "Byens hjerte — folksomt torg med terrasser", "latitude": 60.3928, "longitude": 5.3230, "type": "square", "city": "Bergen" },
+  { "id": "bergen-03", "name": "Nordnes Park", "description": "Rolig park med fjordutsikt mot Puddefjorden", "latitude": 60.3960, "longitude": 5.3092, "type": "park", "city": "Bergen" },
+  { "id": "bergen-04", "name": "Nøstet", "description": "Sjarmerende kaipromenade med kafeer", "latitude": 60.3948, "longitude": 5.3112, "type": "waterfront", "city": "Bergen" },
+  { "id": "bergen-05", "name": "Muséplassen", "description": "Grønn plass med kunst og uteserveringer", "latitude": 60.3935, "longitude": 5.3280, "type": "square", "city": "Bergen" },
+  { "id": "bergen-06", "name": "Fløyen (topp)", "description": "Fantastisk utsikt over Bergen — ta funicularen", "latitude": 60.3953, "longitude": 5.3320, "type": "viewpoint", "city": "Bergen" },
+
+  { "id": "oslo-01", "name": "Aker Brygge", "description": "Populær havnepromenade med mange serveringssteder", "latitude": 59.9097, "longitude": 10.7276, "type": "waterfront", "city": "Oslo" },
+  { "id": "oslo-02", "name": "Youngstorget", "description": "Livlig torg i sentrum", "latitude": 59.9139, "longitude": 10.7490, "type": "square", "city": "Oslo" },
+  { "id": "oslo-03", "name": "Vigelandsparken", "description": "Storslått skulpturpark — fin dag i parken", "latitude": 59.9270, "longitude": 10.6994, "type": "park", "city": "Oslo" },
+  { "id": "oslo-04", "name": "Sørenga Sjøbad", "description": "Badeplass og uteservering ved Oslofjorden", "latitude": 59.8985, "longitude": 10.7548, "type": "waterfront", "city": "Oslo" },
+  { "id": "oslo-05", "name": "Grünerløkka", "description": "Hippe terrasser langs Akerselva", "latitude": 59.9233, "longitude": 10.7607, "type": "terrace", "city": "Oslo" },
+
+  { "id": "trondheim-01", "name": "Nedre Elvehavn", "description": "Restaurert industriområde langs Nidelva", "latitude": 63.4282, "longitude": 10.4005, "type": "waterfront", "city": "Trondheim" },
+  { "id": "trondheim-02", "name": "Solsiden", "description": "Populær uteservering ved elven", "latitude": 63.4299, "longitude": 10.4000, "type": "terrace", "city": "Trondheim" },
+  { "id": "trondheim-03", "name": "Nedre Møllenberg", "description": "Koselig nabolag med uteservering", "latitude": 63.4325, "longitude": 10.3985, "type": "terrace", "city": "Trondheim" },
+
+  { "id": "stavanger-01", "name": "Gamle Stavanger", "description": "Hvite trehus og sjarmerende smug", "latitude": 58.9700, "longitude": 5.7320, "type": "square", "city": "Stavanger" },
+  { "id": "stavanger-02", "name": "Vågen havn", "description": "Havn med uteserveringer og aktivitet", "latitude": 58.9688, "longitude": 5.7375, "type": "waterfront", "city": "Stavanger" },
+
+  { "id": "stockholm-01", "name": "Djurgården", "description": "Grønn ø med kafeer og parker", "latitude": 59.3270, "longitude": 18.1175, "type": "park", "city": "Stockholm" },
+  { "id": "stockholm-02", "name": "Kungsträdgården", "description": "Kjendispark i sentrum av Stockholm", "latitude": 59.3322, "longitude": 18.0718, "type": "park", "city": "Stockholm" },
+  { "id": "stockholm-03", "name": "Södermalm-terrassen", "description": "Utsikt over Gamla Stan fra Monteliusvägen", "latitude": 59.3165, "longitude": 18.0500, "type": "viewpoint", "city": "Stockholm" },
+
+  { "id": "copenhagen-01", "name": "Nyhavn", "description": "Ikonisk kanal med fargerike hus og uteservering", "latitude": 55.6796, "longitude": 12.5831, "type": "waterfront", "city": "Copenhagen" },
+  { "id": "copenhagen-02", "name": "Islands Brygge", "description": "Havnepark populær blant lokale", "latitude": 55.6685, "longitude": 12.5750, "type": "park", "city": "Copenhagen" }
+]

@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var appState = AppState()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            NavigationStack {
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+            .tabItem { Label("Hjem", systemImage: "house") }
+
+            NavigationStack {
+                MapView()
+            }
+            .tabItem { Label("Kart", systemImage: "map") }
+
+            NavigationStack {
+                SettingsView()
+            }
+            .tabItem { Label("Innstillinger", systemImage: "gearshape") }
         }
-        .padding()
+        .environmentObject(appState)
+        .tint(Theme.beerAmber)
     }
 }
 
