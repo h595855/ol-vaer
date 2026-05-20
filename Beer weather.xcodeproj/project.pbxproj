@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		56E3C3212FBE3ABF0093A5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56E3C3082FBE3ABD0093A5BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E3C30F2FBE3ABD0093A5BD;
+			remoteInfo = "Beer weather";
+		};
+		56E3C32B2FBE3ABF0093A5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56E3C3082FBE3ABD0093A5BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E3C30F2FBE3ABD0093A5BD;
+			remoteInfo = "Beer weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56E3C3102FBE3ABD0093A5BD /* Beer weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beer weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E3C3202FBE3ABF0093A5BD /* Beer weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beer weatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E3C32A2FBE3ABF0093A5BD /* Beer weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beer weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		56E3C3122FBE3ABD0093A5BD /* Beer weather */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Beer weather";
+			sourceTree = "<group>";
+		};
+		56E3C3232FBE3ABF0093A5BD /* Beer weatherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Beer weatherTests";
+			sourceTree = "<group>";
+		};
+		56E3C32D2FBE3ABF0093A5BD /* Beer weatherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Beer weatherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56E3C30D2FBE3ABD0093A5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C31D2FBE3ABF0093A5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C3272FBE3ABF0093A5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56E3C3072FBE3ABD0093A5BD = {
+			isa = PBXGroup;
+			children = (
+				56E3C3122FBE3ABD0093A5BD /* Beer weather */,
+				56E3C3232FBE3ABF0093A5BD /* Beer weatherTests */,
+				56E3C32D2FBE3ABF0093A5BD /* Beer weatherUITests */,
+				56E3C3112FBE3ABD0093A5BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56E3C3112FBE3ABD0093A5BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56E3C3102FBE3ABD0093A5BD /* Beer weather.app */,
+				56E3C3202FBE3ABF0093A5BD /* Beer weatherTests.xctest */,
+				56E3C32A2FBE3ABF0093A5BD /* Beer weatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56E3C30F2FBE3ABD0093A5BD /* Beer weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E3C3342FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weather" */;
+			buildPhases = (
+				56E3C30C2FBE3ABD0093A5BD /* Sources */,
+				56E3C30D2FBE3ABD0093A5BD /* Frameworks */,
+				56E3C30E2FBE3ABD0093A5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				56E3C3122FBE3ABD0093A5BD /* Beer weather */,
+			);
+			name = "Beer weather";
+			packageProductDependencies = (
+			);
+			productName = "Beer weather";
+			productReference = 56E3C3102FBE3ABD0093A5BD /* Beer weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56E3C31F2FBE3ABF0093A5BD /* Beer weatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E3C3372FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weatherTests" */;
+			buildPhases = (
+				56E3C31C2FBE3ABF0093A5BD /* Sources */,
+				56E3C31D2FBE3ABF0093A5BD /* Frameworks */,
+				56E3C31E2FBE3ABF0093A5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E3C3222FBE3ABF0093A5BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				56E3C3232FBE3ABF0093A5BD /* Beer weatherTests */,
+			);
+			name = "Beer weatherTests";
+			packageProductDependencies = (
+			);
+			productName = "Beer weatherTests";
+			productReference = 56E3C3202FBE3ABF0093A5BD /* Beer weatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56E3C3292FBE3ABF0093A5BD /* Beer weatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E3C33A2FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weatherUITests" */;
+			buildPhases = (
+				56E3C3262FBE3ABF0093A5BD /* Sources */,
+				56E3C3272FBE3ABF0093A5BD /* Frameworks */,
+				56E3C3282FBE3ABF0093A5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E3C32C2FBE3ABF0093A5BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				56E3C32D2FBE3ABF0093A5BD /* Beer weatherUITests */,
+			);
+			name = "Beer weatherUITests";
+			packageProductDependencies = (
+			);
+			productName = "Beer weatherUITests";
+			productReference = 56E3C32A2FBE3ABF0093A5BD /* Beer weatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56E3C3082FBE3ABD0093A5BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					56E3C30F2FBE3ABD0093A5BD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					56E3C31F2FBE3ABF0093A5BD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 56E3C30F2FBE3ABD0093A5BD;
+					};
+					56E3C3292FBE3ABF0093A5BD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 56E3C30F2FBE3ABD0093A5BD;
+					};
+				};
+			};
+			buildConfigurationList = 56E3C30B2FBE3ABD0093A5BD /* Build configuration list for PBXProject "Beer weather" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56E3C3072FBE3ABD0093A5BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 56E3C3112FBE3ABD0093A5BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56E3C30F2FBE3ABD0093A5BD /* Beer weather */,
+				56E3C31F2FBE3ABF0093A5BD /* Beer weatherTests */,
+				56E3C3292FBE3ABF0093A5BD /* Beer weatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56E3C30E2FBE3ABD0093A5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C31E2FBE3ABF0093A5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C3282FBE3ABF0093A5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E3C30C2FBE3ABD0093A5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C31C2FBE3ABF0093A5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3C3262FBE3ABF0093A5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56E3C3222FBE3ABF0093A5BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56E3C30F2FBE3ABD0093A5BD /* Beer weather */;
+			targetProxy = 56E3C3212FBE3ABF0093A5BD /* PBXContainerItemProxy */;
+		};
+		56E3C32C2FBE3ABF0093A5BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56E3C30F2FBE3ABD0093A5BD /* Beer weather */;
+			targetProxy = 56E3C32B2FBE3ABF0093A5BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56E3C3322FBE3ABF0093A5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56E3C3332FBE3ABF0093A5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56E3C3352FBE3ABF0093A5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beer weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E3C3362FBE3ABF0093A5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beer weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56E3C3382FBE3ABF0093A5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beer weather";
+			};
+			name = Debug;
+		};
+		56E3C3392FBE3ABF0093A5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beer weather";
+			};
+			name = Release;
+		};
+		56E3C33B2FBE3ABF0093A5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Beer weather";
+			};
+			name = Debug;
+		};
+		56E3C33C2FBE3ABF0093A5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58U9533L2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Be.Beer-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Beer weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56E3C30B2FBE3ABD0093A5BD /* Build configuration list for PBXProject "Beer weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E3C3322FBE3ABF0093A5BD /* Debug */,
+				56E3C3332FBE3ABF0093A5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E3C3342FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E3C3352FBE3ABF0093A5BD /* Debug */,
+				56E3C3362FBE3ABF0093A5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E3C3372FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E3C3382FBE3ABF0093A5BD /* Debug */,
+				56E3C3392FBE3ABF0093A5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E3C33A2FBE3ABF0093A5BD /* Build configuration list for PBXNativeTarget "Beer weatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E3C33B2FBE3ABF0093A5BD /* Debug */,
+				56E3C33C2FBE3ABF0093A5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56E3C3082FBE3ABD0093A5BD /* Project object */;
+}
